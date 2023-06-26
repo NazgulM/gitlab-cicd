@@ -21,3 +21,5 @@ it is followed by **Continuous Feedback** and **Monitoring** at all stages --> O
 
 ![lifecycle](1.png)
 
+
+
