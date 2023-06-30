@@ -56,4 +56,6 @@ job2:
 
 Stages: It defines when to run the jobs. For example, after one stage compiles the code, other stages run tests, see Figure 1.
 
+![stages](2.png)
+
 
