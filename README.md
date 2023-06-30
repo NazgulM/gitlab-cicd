@@ -32,3 +32,28 @@ GROUP Runner - can be installed on Kubernetes cluster which supports high availa
 
 
 
+I will try to create a Gitlab CI pipeline, using Maven and Docker. I'll, use java application as an artifact.
+
+## Gitlab CI/CD concept.
+
+1. The benefits of using
+
+Use GitLab CI/CD to catch bugs and errors early in the development cycle. GitLab CI/CD  can automatically build, test, deploy, and monitor your applications by using Auto DevOps.
+
+2. Basic concepts
+
+**.gitlab-ci.yaml** : (Configuration file). We configure our pipeline with this file. We must create it in the repository. When we push on a branch of our repo, a pipeline will  be triggered on a dedicated virtual machine running jobs described in **.gitlab-ci.yaml** file.
+
+Pipeline configuration begins with the job. jobs are the most fundamental element of a **.gitlab-ci.yaml**. Jobs picked up by runners, and executed in the environment of the runner, 
+
+```
+job1:
+  script: "execute-script-for-job1"
+
+job2:
+  script: "execute-script-for-job2"
+```
+
+Stages: It defines when to run the jobs. For example, after one stage compiles the code, other stages run tests, see Figure 1.
+
+
