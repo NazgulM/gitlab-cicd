@@ -58,4 +58,14 @@ Stages: It defines when to run the jobs. For example, after one stage compiles t
 
 ![stages](2.png)
 
+3. GitLab CI/CD Workflow
+
+![cicd](3.png)
+
+This workflow shows the major steps in the GitLab process, when we push commits to a feature branch in a remote repo, it triggers the CI/CD pipeline for the project --> runs automated scripts -> builds and tests my application --> previews the changes in a Review App --> Get code reviewed and approved --> Merge the feature branch into the default branch -->  GitLab CI/CD deploys your changes automatically to a production environment. 
+
+4. Create a GitLab Repository
+
+5. Create .gitlab-ci.yml
+
 
